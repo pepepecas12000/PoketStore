@@ -32,8 +32,7 @@ Después se abre `http://localhost:8000` en Chrome o Edge.
 
 Lo escribí a mano con `name`, `short_name`, `start_url`, `display: "standalone"`, el color de fondo, el color del tema (`#1f6f5c`) y dos iconos (192x192 y 512x512). Con esto el navegador permite instalar la app.
 
-![Manifiesto en DevTools]
-![alt text](capturas/manifest.png)
+![Manifesto](capturas/manifest.png)
 
 ### 2. App Shell (index.html y styles.css)
 
@@ -57,7 +56,8 @@ Programé los tres eventos del ciclo de vida:
 
 Con `fetch()` se piden los usuarios a `https://jsonplaceholder.typicode.com/users` y se pintan como tarjetas (nombre, correo, empresa y ciudad). También se registra el Service Worker y en el pie de página se muestra si hay conexión o no.
 
-![Lista de usuarios](capturas/contenidoDinamico.png)
+![Codifo del app](capturas/contenidoDinamico.png)
+![Lista de usuarios](capturas/listaUsuarios.png)
 
 ## Cómo probar que funciona sin internet
 
