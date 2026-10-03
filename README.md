@@ -17,13 +17,9 @@ pocket-store/
 
 ## Cómo ejecutarlo
 
-Los Service Workers no funcionan abriendo el archivo directo (`file://`), así que hay que servir la carpeta con un servidor local. Desde la carpeta del proyecto:
+Los Service Workers no funcionan abriendo el archivo directo (`file://`), así que hay que servir la carpeta con un servidor local. Desde la carpeta del proyecto. Para esto se utiliza la extencion de Live Server
 
-```
-python3 -m http.server 8000
-```
-
-Después se abre `http://localhost:8000` en Chrome o Edge.
+Después se abre `http://127.0.0.1:5500/` en Chrome o Edge.
 
 ![Vista General de la Aplicacion](capturas/vistaPoketStore.png)
 ## Cómo se hizo
