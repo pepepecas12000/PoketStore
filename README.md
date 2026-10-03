@@ -25,6 +25,7 @@ python3 -m http.server 8000
 
 Después se abre `http://localhost:8000` en Chrome o Edge.
 
+![Vista General de la Aplicacion](capturas/vistaPoketStore.png)
 ## Cómo se hizo
 
 ### 1. Manifiesto (manifest.json)
@@ -64,6 +65,6 @@ Con `fetch()` se piden los usuarios a `https://jsonplaceholder.typicode.com/user
 2. Abrir DevTools, ir a Application, luego Service Workers y marcar Offline.
 3. Recargar la página: la vista y la lista siguen apareciendo.
 
-![Prueba sin conexión](capturas/05-offline.png)
+![Prueba sin conexión](capturas/sinConexion.png)
 
-Si se cambia cualquier archivo, hay que subir la versión de `CACHE` en `sw.js` (por ejemplo a `pocket-store-v2`) para que el navegador actualice la caché.
+
